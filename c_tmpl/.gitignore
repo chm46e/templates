@@ -1,0 +1,45 @@
+## Project specific
+bin/*
+
+## Generic
+# directories
+build/
+.cache
+
+# objects
+*.o
+*.ko
+*.obj
+*.elf
+*.bin
+
+# shared objects
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# debug
+*.dSYM/
+*.su
+*.idb
+*.pdb
+*.data
+
+# misc
+*.cmd
+*.mod*
